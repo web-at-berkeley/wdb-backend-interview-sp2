@@ -2,7 +2,7 @@
 
 ## Preface
 
-Thanks for applying to Web Development at Berkeley & for taking the time to work on this technical project. Projects are due **January 29th, 2023 at 11:59 PM**.
+Thank you for applying to Web Development at Berkeley and for taking the time to work on this technical project. Projects are due **January 29th, 2024 at 11:59 PM**.
 
 This project is designed for **you** to gauge whether you want to apply to the **bootcamp** or **industry** branch. Completing all checkpoints for the branch you are applying to is highly preferred, but don't worry if you aren't able to finish everything! As an estimate, you shouldn't need to spend any longer than ~3-4 hours on this project -- we don't want this to be a huge burden on you.
 
@@ -13,7 +13,7 @@ This section will be updated with clarifications as they come up!
 
 Welcome to WDB's backend project for development branch applicants — Spring 2024 👋
 
-Make sure you read this ENTIRE DOCUMENT, especially these instructions, carefully before you start. If you have any questions please reach out to [our email](webatberkeley@gmail.com).
+Make sure you read this ENTIRE DOCUMENT, especially these instructions, carefully before you start. If you have any questions please reach out to [webatberkeley@gmail.com](webatberkeley@gmail.com).
 
 To submit your project, please place your submission into a GitHub repo that is set to private. You
 will be submitting your code on [Gradescope](https://www.gradescope.com/). If you do not have a
@@ -21,7 +21,7 @@ Gradescope account, please create one and if you are unable to create one, pleas
 immediately. The Gradescope course code is **4GEP2N**. You will see two different assignments:
 `Frontend Project` and `Backend Project`. _Please only submit to Backend Technical Project._ You can ignore Frontend Technical Project.
 
-The technical project will be due by **January 29th, 2023 at 11:59 PM**. We will be unable to respond to clarification emails sent in after then, so if you have any questions about the project, please let us know before then.
+The technical project will be due by **January 29th, 2024 at 11:59 PM**. We will be unable to respond to clarification emails sent in after then, so if you have any questions about the project, please let us know before then.
 
 Also, this page may potentially keep changing if we get some frequently asked questions, so keep this repository bookmarked and check back on it every now and then! If there are major changes however, we'll make sure to email you about those.
 
