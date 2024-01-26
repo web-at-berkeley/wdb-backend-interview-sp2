@@ -9,10 +9,6 @@ This project is designed for **you** to gauge whether you want to apply to the *
 ## Clarifications
 
 This section will be updated with clarifications as they come up!
-
-2. You can assume all names are UNIQUE and CASE INSENSITIVE, only including letters a-z.
-3. the `bestShout` endpoint should only operate on contestants who have performed a shout. If you implemented it a different way, you can keep it that way an note that in your assumptions doc though — it won't negatively affect you!
-
 ## Submission Instructions
 
 Welcome to WDB's backend project for development branch applicants — Spring 2024 👋
@@ -49,11 +45,11 @@ _**NOTE: THERE ARE SEPARATE TASKS FOR BOOTCAMP VS. INDUSTRY**_. If you are apply
 
 The managment has listed a comprehensive set of rules/business logic for the event (_make sure you read through this carefully_).
 
-## Register Contestant/Husband
+## Register Contestant/Ticket Price
 
 Register a fan and associate them with the price of the ticket they paid (ticket prices can vary). Every contestant also has a "vocalRange" field (which represents how many meters their voice will go). Lastly, the fan has a "location" which represents their distance (in meters) from the stage.
 
-You can assume that all contestants and husbands have a unique name.
+You can assume that all contestants and tickets have a unique price. You can assume all names are UNIQUE and CASE INSENSITIVE, only including letters a-z.
 
 Example request:
 
@@ -109,7 +105,7 @@ Of course, no concert is complete without a fan yelling at Taylor Swift when she
 
 We determine the score of a fan shout based on the fans' location and the fans' vocalRange. If the vocalRange is exactly equal to the location, the score is equal to 0. If the vocal range is greater, the score is the absolute difference between the location and the vocalRange. In both these cases, return the score.
 
-If the vocalRange is less, we should raise an error with a descriptive message. If the fan name passed in hasn't been registered, that should raise an error too.
+If the vocalRange is less, we should raise an error with a descriptive message. If the fan name passed in hasn't been registered, that should raise an error too. The `bestShout` endpoint should only operate on fans who have performed a shout. If you implemented it a different way, you can keep it that way an note that in your assumptions doc though — it won't negatively affect you!
 
 Example request:
 
