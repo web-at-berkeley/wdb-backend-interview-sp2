@@ -45,11 +45,11 @@ _**NOTE: THERE ARE SEPARATE TASKS FOR BOOTCAMP VS. INDUSTRY**_. If you are apply
 
 The managment has listed a comprehensive set of rules/business logic for the event (_make sure you read through this carefully_).
 
-## Register Contestant/Ticket Price
+## Register Fan/Ticket Price
 
-Register a fan and associate them with the price of the ticket they paid (ticket prices can vary). Every contestant also has a "vocalRange" field (which represents how many meters their voice will go). Lastly, the fan has a "location" which represents their distance (in meters) from the stage.
+Register a fan and associate them with the price of the ticket they paid (ticket prices can vary). Every fan also has a "vocalRange" field (which represents how many meters their voice will go). Lastly, the fan has a "location" which represents their distance (in meters) from the stage.
 
-You can assume that all contestants and tickets have a unique price. You can assume all names are UNIQUE and CASE INSENSITIVE, only including letters a-z.
+You can assume that all fans and tickets have a unique price. You can assume all names are UNIQUE and CASE INSENSITIVE, only including letters a-z.
 
 Example request:
 
@@ -70,11 +70,11 @@ Request body:
 
 The response can look like anything. You should raise an error if a field is missing, with a descriptive error message.
 
-## Get All Contestants
+## Get All Fans
 
-Return a list of all contestants and their vocal range.
+Return a list of all fans and their vocal range.
 
-**Industry Checkpoint**: Add additional functionality to this API route allowing you to include a query parameter `sortedByName=true` that determines if you should return by sorted order of contestantName. (ex: GET /fans?sortedByName=true)
+**Industry Checkpoint**: Add additional functionality to this API route allowing you to include a query parameter `sortedByName=true` that determines if you should return by sorted order of fanName. (ex: GET /fans?sortedByName=true)
 
 Example request:
 
@@ -135,7 +135,7 @@ Example response:
 
 ```json
 {
-  "contestantName": "Alice",
+  "fanName": "Alice",
   "score": 100
 }
 ```
